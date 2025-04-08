@@ -1,0 +1,24 @@
+[submodule "glog_catkin"]
+    path = glog_catkin/
+    url = https://github.com/ethz-asl/glog_catkin.git
+    branch = master
+
+[submodule "catkin_simple"]
+    path = catkin_simple/
+    url = https://github.com/catkin/catkin_simple.git
+    branch = master
+
+[submodule "realsense-ros"]
+    path = realsense-ros/
+    url = https://github.com/IntelRealSense/realsense-ros.git
+    branch = 2.3.2
+
+[submodule "ros_vrpn_client"]
+    path = ros_vrpn_client/
+    url = https://github.com/ethz-asl/ros_vrpn_client.git
+    branch = master
+
+[submodule "vrpn_catkin"]
+    path = vrpn_catkin/
+    url = https://github.com/ethz-asl/vrpn_catkin.git
+    branch = master

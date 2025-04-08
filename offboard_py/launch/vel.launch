@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- Include the MAVROS node with SITL and Gazebo -->
+	<include file="$(find px4)/launch/mavros_posix_sitl.launch">
+	</include> 
+	<!-- <include file="/opt/ros/noetic/share/mavros/launch/px4.launch">
+	</include> 
+	<include file="/home/fast-fly/test_ws/src/vrpn_client_ros-foxy-devel/launch/sample.launch">
+	</include>  -->
+
+	<!-- Our node to control the drone -->
+	<node pkg="offboard_py" type="vel.py" name="vel" required="true" output="screen" />
+	<node pkg="offboard_py" type="bridge_pos.py" name="pos_node" required="true" output="screen" />
+
+</launch>

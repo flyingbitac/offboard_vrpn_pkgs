@@ -1,0 +1,12 @@
+<launch>
+    <arg name="object_name" default="RigidBody" />
+    <arg name="vrpn_server_ip" default="192.168.1.3" />
+    <node name="some_object_name_vrpn_client" type="ros_vrpn_client" pkg="ros_vrpn_client" output="screen">
+        <param name="vrpn_server_ip" value="$(arg vrpn_server_ip)" />
+        <param name="object_name" value="$(arg object_name)" />
+        <param name="vrpn_coordinate_system" value="optitrack" />
+        <param name="timestamping_system" value="ros" />
+        <!-- or directly:
+        <param name="object_name" value="some_object_name" /> -->
+    </node>
+</launch>
