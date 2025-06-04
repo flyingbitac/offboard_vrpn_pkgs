@@ -1,19 +1,19 @@
 [submodule "glog_catkin"]
     path = glog_catkin
-    url = http://github.com/ethz-asl/glog_catkin.git
+    url = https://github.com/ethz-asl/glog_catkin.git
     branch = master
 
 [submodule "catkin_simple"]
     path = catkin_simple
-    url = http://github.com/catkin/catkin_simple.git
+    url = https://github.com/catkin/catkin_simple.git
     branch = master
 
 [submodule "ros_vrpn_client"]
     path = ros_vrpn_client
-    url = http://github.com/ethz-asl/ros_vrpn_client.git
+    url = https://github.com/ethz-asl/ros_vrpn_client.git
     branch = master
 
 [submodule "vrpn_catkin"]
     path = vrpn_catkin
-    url = http://github.com/ethz-asl/vrpn_catkin.git
+    url = https://github.com/ethz-asl/vrpn_catkin.git
     branch = master
